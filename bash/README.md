@@ -30,9 +30,9 @@ And 2 scripts dedicated to backup restoration:
 
 These scripts use others libraries contained in the _/lib_ folder:
 
-* Bash shell function library (*bsfl*) used for logging: https://github.com/deviantony/bsfl
-* Common bash library (*cbl*) provides utility methods: https://github.com/deviantony/common-bash-library 
-* shFlags used to handle script parameters: https://github.com/deviantony/shflags
+* Bash shell function library (*bsfl*) used for logging: https://github.com/bshp/xtrabackup/tree/master/bash/lib/bsfl
+* Common bash library (*cbl*) provides utility methods: https://github.com/bshp/xtrabackup/tree/master/bash/lib/common-bash-library 
+* shFlags used to handle script parameters: https://github.com/bshp/xtrabackup/tree/master/bash/lib/shflags
 
 ## Create and restore a backup archive
 
