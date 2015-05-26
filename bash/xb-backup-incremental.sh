@@ -49,7 +49,7 @@ DEFINE_boolean 'increment' false 'Add an incremental backup in the backup cycle'
 DEFINE_string 'mysql-user' '' 'MySQL user account for the backup creation' 'u' 'required'
 DEFINE_string 'mysql-passwd' '' 'MySQL password for the backup creation' 'p'
 DEFINE_string 'tmp-dir' '/tmp/xb_backup_inc' 'Temporary directory'
-DEFINE_string 'data-dir' '/opt/xb-backup/' 'Data directory to store the incremental backup cycle data' 'd'
+DEFINE_string 'data-dir' '/opt/mysql/xbackups_log/' 'Data directory to store the incremental backup cycle data' 'd'
 DEFINE_string 'log-file' '/var/log/mysql/xb-backup-incremental.log' 'Log file'
 DEFINE_integer 'backup-threads' 1 'Number of threads used to backup'
 
